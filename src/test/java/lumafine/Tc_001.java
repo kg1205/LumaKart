@@ -11,7 +11,7 @@ public class Tc_001 extends Baseclass {
 	
 	@Test
 	
-	public void test() {
+	public void test() throws Exception {
 		//driver.get(baseurl);
 		logg.info("url has opened");
 	
@@ -28,7 +28,7 @@ public class Tc_001 extends Baseclass {
 		h.colors();
 		//h.addtocart();
 		
-		
+		Thread.sleep(1000);
 		
 		
 	}
